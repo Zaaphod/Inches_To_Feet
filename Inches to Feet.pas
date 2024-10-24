@@ -8,6 +8,7 @@ Var
    BorlandIDEBlockType,MSDEVColumnSelect : Word;
    KeyInput                                         : Char;
    Vertical                                         :Boolean;
+   
 
 {=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=}
 (**********************************************************)
