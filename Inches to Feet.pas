@@ -395,7 +395,11 @@ Begin
                      Write(KeyInput);
                   End;
                if KeyInput = #27 Then
-                  Halt;
+                  Begin
+                     Clipboard_Stringlist.free;
+                     Output_Stringlist.free;
+                     Halt;
+                  End;
             Until Keyinput=#13;
             Writeln;
             If (InputString <> '') Then
