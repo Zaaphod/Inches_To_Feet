@@ -8,6 +8,7 @@ Var
    BorlandIDEBlockType,MSDEVColumnSelect : Word;
    KeyInput                                         : Char;
    Vertical                                         :Boolean;
+   
 
 {=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=+=-=}
 (**********************************************************)
@@ -439,3 +440,4 @@ Begin
    Clipboard_Stringlist.free;
    Output_Stringlist.free;
 end.
+
